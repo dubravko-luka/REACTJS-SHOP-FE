@@ -1,15 +1,15 @@
 // image
-import logoBlueExchange from "image/iconMenu/adidas.png";
-import logoOwen from "image/iconMenu/nike.png";
-import logoNinomaxx from "image/iconMenu/Vans.png";
-import logoCanifa from "image/iconMenu/newBalance.png";
-import logoRoutine from "image/iconMenu/puma.png";
-import logoEvadeEva from "image/iconMenu/converse.png";
+import logoBlueExchange from "image/iconMenu/BlueExchange.png";
+import logoOwen from "image/iconMenu/Owen.png";
+import logoNinomaxx from "image/iconMenu/Ninomaxx.png";
+import logoCanifa from "image/iconMenu/Canifa.png";
+import logoRoutine from "image/iconMenu/Routine.png";
+import logoEvadeEva from "image/iconMenu/EvadeEva.png";
 export default function MenuUser({ list_menu, onClickCloseMenu, Link }) {
     const { BlueExchange } = list_menu.listMenu;
     const { Owen } = list_menu.listMenu;
     const { Ninomaxx } = list_menu.listMenu;
-    const { NewBalance } = list_menu.listMenu;
+    const { Canifa } = list_menu.listMenu;
     const { Routine } = list_menu.listMenu;
     const { EvadeEva } = list_menu.listMenu;
     return (
@@ -28,7 +28,7 @@ export default function MenuUser({ list_menu, onClickCloseMenu, Link }) {
                                 alt="logoBlueExchange"
                             />
                         </div>
-                        BlueExchange
+                        Blue Exchange
                         <i className="fa fa-caret-down" />
                     </a>
                     <ul className="sub-menu">
@@ -102,11 +102,11 @@ export default function MenuUser({ list_menu, onClickCloseMenu, Link }) {
                         <div className="icon-menu">
                             <img src={logoCanifa} alt="logoCanifa" />
                         </div>
-                        new balance <i className="fa fa-caret-down" />
+                        Canifa <i className="fa fa-caret-down" />
                     </a>
                     <ul className="sub-menu">
-                        {NewBalance &&
-                            NewBalance.map((menu, key) => (
+                        {Canifa &&
+                            Canifa.map((menu, key) => (
                                 <li key={key}>
                                     <Link
                                         to={`/product-type?nsx=${menu.replace(
@@ -126,7 +126,7 @@ export default function MenuUser({ list_menu, onClickCloseMenu, Link }) {
                         <div className="icon-menu">
                             <img src={logoRoutine} alt="logoRoutine" />
                         </div>
-                        puma <i className="fa fa-caret-down" />
+                        Routine <i className="fa fa-caret-down" />
                     </a>
                     <ul className="sub-menu">
                         {Routine &&
@@ -150,7 +150,7 @@ export default function MenuUser({ list_menu, onClickCloseMenu, Link }) {
                         <div className="icon-menu">
                             <img src={logoEvadeEva} alt="logoEvadeEva" />
                         </div>
-                        converse <i className="fa fa-caret-down" />
+                        EvadeEva <i className="fa fa-caret-down" />
                     </a>
                     <ul className="sub-menu">
                         {EvadeEva &&

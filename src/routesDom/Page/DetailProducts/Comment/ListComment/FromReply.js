@@ -2,7 +2,7 @@ import { useHistory } from "react-router-dom";
 import { Input, Button, Form } from "antd";
 import ImageDefault from "image/Notoken.png";
 const avatarLogo =
-    "https://res.cloudinary.com/phuockaito/image/upload/v1618158354/tich-xanh-fanpage-va-quang-cao-livestream-fanpage-tich-xanh_ttn2e7.png";
+    "https://res.cloudinary.com/phuong/image/upload/v1618158354/tich-xanh-fanpage-va-quang-cao-livestream-fanpage-tich-xanh_ttn2e7.png";
 export default function FromReply({
     setReplyComment,
     socket,

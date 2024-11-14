@@ -27,7 +27,7 @@ export default function ItemComment({
 }) {
     //
     const avatarLogo =
-        "https://res.cloudinary.com/phuockaito/image/upload/v1618158354/tich-xanh-fanpage-va-quang-cao-livestream-fanpage-tich-xanh_ttn2e7.png";
+        "https://res.cloudinary.com/phuong/image/upload/v1618158354/tich-xanh-fanpage-va-quang-cao-livestream-fanpage-tich-xanh_ttn2e7.png";
     const [start, setStart] = useState(0);
     const [startOldEdit, setStartOldEdit] = useState(0);
     //

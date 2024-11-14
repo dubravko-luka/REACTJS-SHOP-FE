@@ -5,7 +5,7 @@ const MenuProduct = [
         productType: [
             {
                 key: "blueexchange",
-                type: "BlueExchange",
+                type: "blue exchange",
                 name: "Blue Exchange",
             },
         ],
@@ -14,6 +14,11 @@ const MenuProduct = [
         key: "owen",
         name: "Owen",
         productType: [
+            {
+                key: "owen",
+                type: "owen",
+                name: "Owen",
+            },
             {
                 key: "owen",
                 type: "Owen",
@@ -27,7 +32,7 @@ const MenuProduct = [
         productType: [
             {
                 key: "ninomaxx",
-                type: "Ninomaxx",
+                type: "ninomaxx",
                 name: "Ninomaxx",
             },
         ],
@@ -38,7 +43,7 @@ const MenuProduct = [
         productType: [
             {
                 key: "canifa",
-                type: "Canifa",
+                type: "canifa",
                 name: "Canifa",
             },
         ],
@@ -49,7 +54,7 @@ const MenuProduct = [
         productType: [
             {
                 key: "routine",
-                type: "Routine",
+                type: "routine",
                 name: "Routine",
             },
         ],
@@ -60,7 +65,7 @@ const MenuProduct = [
         productType: [
             {
                 key: "evadeEva",
-                type: "EvadeEva",
+                type: "evadeeva",
                 name: "EvadeEva",
             },
         ],

@@ -73,7 +73,7 @@ export default function Footer() {
                             <ul>
                                 <li>
                                     <a
-                                        href="https://www.facebook.com/PhuocKaito1410"
+                                        href="https://www.facebook.com/Phuong1410"
                                         target="_blank"
                                         rel="noreferrer noopener"
                                     >
@@ -82,7 +82,7 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <a
-                                        href="https://www.linkedin.com/in/phuockaito"
+                                        href="https://www.linkedin.com/in/phuong"
                                         target="_blank"
                                         rel="noreferrer noopener"
                                     >
@@ -91,7 +91,7 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <a
-                                        href="https://github.com/phuockaito"
+                                        href="https://github.com/phuong"
                                         target="_blank"
                                         rel="noreferrer noopener"
                                     >
@@ -100,7 +100,7 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <a
-                                        href="https://www.kaitoshop.tk/"
+                                        href="https://www.phuongshop.tk/"
                                         target="_blank"
                                         rel="noreferrer noopener"
                                     >
@@ -127,7 +127,8 @@ export default function Footer() {
                                     style={{
                                         textAlign: "center",
                                         display: "block",
-                                    }}>
+                                    }}
+                                >
                                     Version NextJs
                                 </a>
                             </div>

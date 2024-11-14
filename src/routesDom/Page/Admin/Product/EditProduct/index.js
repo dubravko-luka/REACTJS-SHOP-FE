@@ -49,7 +49,7 @@ export default function EditProduct() {
                 name: name,
                 sex: sex,
                 key: key,
-                NSX: NSX,
+                NSX,
                 collections: collections,
                 productType: productType,
                 description: description,

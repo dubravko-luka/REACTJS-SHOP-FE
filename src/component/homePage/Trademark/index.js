@@ -1,10 +1,10 @@
-import BlueExchange from "image/adidas.png";
-import Owen from "image/converse.jpg";
-import Ninomaxx from "image/newBalance.jpg";
-import Canifa from "image/nike.jpg";
-import Routine from "image/puma.jpg";
+import BlueExchange from "image/BlueExchange.png";
+import Owen from "image/Owen.png";
+import Ninomaxx from "image/Ninomaxx.png";
+import Canifa from "image/Canifa.png";
+import Routine from "image/Routine.png";
 import { Link } from "react-router-dom";
-import EvadeEva from "image/vans.jpg";
+import EvadeEva from "image/EvadeEva.png";
 import "./style.css";
 export default function Trademark() {
     return (

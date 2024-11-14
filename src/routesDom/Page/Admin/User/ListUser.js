@@ -262,7 +262,7 @@ export default function ListUser({
             render: (user) => {
                 return (
                     <>
-                        {user.email === "huuphuocit1999@gmail.com" ? (
+                        {user.email === "admin@shop.com" ? (
                             <LockOutlined
                                 style={{
                                     color: "black",
@@ -295,7 +295,7 @@ export default function ListUser({
             render: (user) => {
                 return (
                     <>
-                        {user.email === "huuphuocit1999@gmail.com" ? (
+                        {user.email === "admin@shop.com" ? (
                             <LockOutlined
                                 style={{
                                     color: "black",

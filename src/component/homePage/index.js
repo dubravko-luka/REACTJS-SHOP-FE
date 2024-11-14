@@ -13,7 +13,7 @@ import {
     getProductAll,
 } from "features/Product/pathAPI";
 export default function HomePage() {
-    document.querySelector("title").innerHTML = "Kaito Shop";
+    document.querySelector("title").innerHTML = "Phuong Shop";
     const dispatch = useDispatch();
     // dispatch API
     const actionGetProductAll = (params) => dispatch(getProductAll(params));
@@ -44,8 +44,12 @@ export default function HomePage() {
             dataProductsType.length === 0 ||
             dataSlider.length === 0
         ) {
-            actionGetProductType({ name: "Puma", page: 1, sort_price: 0 });
-            actionGetProductSlider({ name: "Converse", items: 12 });
+            actionGetProductType({
+                name: "BlueExchange",
+                page: 1,
+                sort_price: 0,
+            });
+            actionGetProductSlider({ name: "Owen", items: 12 });
             actionGetProductAll({ page: "1", limit: "24" });
         }
     }, []);
