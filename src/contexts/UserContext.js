@@ -59,7 +59,7 @@ const UserContextProvider = ({ children }) => {
     // connect and get user if have token
     useLayoutEffect(() => {
         (async () => {
-            const socketIo = io("http://localhost:3001");
+            const socketIo = io("https://api-do-sida.vercel.app");
             if (socketIo) {
                 setSocket(socketIo);
             }
