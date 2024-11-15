@@ -195,7 +195,7 @@ export default function Login() {
                             <p>Hoặc đăng nhập bằng</p>
                             <GoogleLogin
                                 className="btn-google-login"
-                                clientId="122492016743-7udd70aeqetm6u3g58r8c4i9cc8rfs8s.apps.googleusercontent.com"
+                                clientId="127998389379-pi773f5fr39ntufhitg4n8sus3gi6kr1.apps.googleusercontent.com"
                                 onSuccess={responseGoogle}
                                 buttonText=""
                                 icon
