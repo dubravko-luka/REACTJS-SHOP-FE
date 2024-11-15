@@ -60,9 +60,7 @@ const UserContextProvider = ({ children }) => {
     useLayoutEffect(() => {
         (async () => {
             const socketIo = io("https://api-do-sida.vercel.app", {
-                secure: true,
                 transports: ["websocket", "polling"],
-                withCredentials: true,
             });
             if (socketIo) {
                 setSocket(socketIo);
