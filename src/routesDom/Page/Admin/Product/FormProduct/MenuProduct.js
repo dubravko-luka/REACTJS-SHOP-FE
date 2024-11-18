@@ -5,8 +5,8 @@ const MenuProduct = [
         productType: [
             {
                 key: "blueexchange",
-                type: "blue exchange",
-                name: "Blue Exchange",
+                type: "blue exchange ao thun",
+                name: "Blue Exchange (Áo Thun)",
             },
         ],
     },
@@ -16,13 +16,13 @@ const MenuProduct = [
         productType: [
             {
                 key: "owen",
-                type: "owen",
-                name: "Owen",
+                type: "owen ao so mi",
+                name: "Owen (Áo Sơ Mi)",
             },
             {
                 key: "owen",
-                type: "Owen",
-                name: "Owen",
+                type: "owen quan au",
+                name: "Owen (Quần Âu)",
             },
         ],
     },
@@ -32,8 +32,8 @@ const MenuProduct = [
         productType: [
             {
                 key: "ninomaxx",
-                type: "ninomaxx",
-                name: "Ninomaxx",
+                type: "ninomaxx ao polo",
+                name: "Ninomaxx (Áo Polo)",
             },
         ],
     },
@@ -43,8 +43,8 @@ const MenuProduct = [
         productType: [
             {
                 key: "canifa",
-                type: "canifa",
-                name: "Canifa",
+                type: "canifa ao phong dai tay",
+                name: "Canifa (Áo Phông Dài Tay)",
             },
         ],
     },
@@ -54,8 +54,8 @@ const MenuProduct = [
         productType: [
             {
                 key: "routine",
-                type: "routine",
-                name: "Routine",
+                type: "routine dam nu",
+                name: "Routine (Đầm Nữ)",
             },
         ],
     },

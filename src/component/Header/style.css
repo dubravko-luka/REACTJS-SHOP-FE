@@ -35,25 +35,6 @@
 
     transition: all 0.3s ease-in-out;
 }
-.ground-header .main-header .main-item-logo a::before,
-.ground-header .main-header .main-item-logo a::after {
-    position: absolute;
-    content: "";
-    height: 20px;
-    width: 20px;
-}
-.ground-header .main-header .main-item-logo a::after {
-    left: 0;
-    top: 0;
-    border-left: 4px solid #ec1839;
-    border-top: 4px solid #ec1839;
-}
-.ground-header .main-header .main-item-logo a::before {
-    border-right: 4px solid #ec1839;
-    border-bottom: 4px solid #ec1839;
-    right: 0;
-    bottom: 0;
-}
 .ground-header .main-header .main-item-logo a img {
     width: 150px;
     height: auto;

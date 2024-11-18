@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 // Components
-import Banner from "./Banner/index";
 import Trademark from "./Trademark/index";
 import SliderHome from "./Slider/index";
 import ProductsType from "./ProductsType/index";
@@ -56,7 +55,6 @@ export default function HomePage() {
     return (
         <div className="group-home">
             <div className="home">
-                <Banner />
                 <Trademark />
                 <ProductsType
                     data={dataProductsType}
