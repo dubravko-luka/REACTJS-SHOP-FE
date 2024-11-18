@@ -2,7 +2,7 @@ import axios from "axios";
 import queryString from "query-string";
 
 const axiosClient = axios.create({
-    baseURL: "http://localhost:3001/api",
+    baseURL: "http://api-do-sida.vercel.app/api",
     headers: {
         "content-type": "application/json",
     },

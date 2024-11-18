@@ -65,8 +65,8 @@ const MenuProduct = [
         productType: [
             {
                 key: "evadeEva",
-                type: "evadeeva",
-                name: "EvadeEva",
+                type: "evadeeva quan dai",
+                name: "EvadeEva (Quần Dài)",
             },
         ],
     },
