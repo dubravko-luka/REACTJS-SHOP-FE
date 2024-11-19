@@ -6,7 +6,7 @@ const cartAPI = {
     },
     getToCartAPI: (token) => {
         const url = "/cart/get-cart";
-        return axiosClient.get(url, null, token);
+        return axiosClient.get(url, {}, token);
     },
     putToCartStatusOrderAPI: (data, token) => {
         const { id_card, data_card } = data;
@@ -20,7 +20,7 @@ const cartAPI = {
     },
     deleteToCartAPI: (id_card, token) => {
         const url = `/cart/delete-cart?id_cart=${id_card}`;
-        return axiosClient.delete(url, null, token);
+        return axiosClient.delete(url, {}, token);
     },
 };
 export default cartAPI;

@@ -6,7 +6,7 @@ const commentAPI = {
     },
     deleteComment: (data, token) => {
         const url = `comments/delete-comments?id=${data._id}&_id_product=${data._id_product}`;
-        return axiosClient.delete(url, null, token);
+        return axiosClient.delete(url, {}, token);
     },
 };
 

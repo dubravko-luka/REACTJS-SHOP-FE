@@ -8,11 +8,11 @@ const adminAPI = {
     },
     checkOutCart: (id_cart, token) => {
         const url = `/admin/check-out-cart?id_cart=${id_cart}`;
-        return axiosClient.put(url, null, token);
+        return axiosClient.put(url, {}, token);
     },
     deleteCart: (id_cart, token) => {
         const url = `/admin/delete-cart?id_cart=${id_cart}`;
-        return axiosClient.delete(url, null, token);
+        return axiosClient.delete(url, {}, token);
     },
     messagesCart: ({ message, id_cart }, token) => {
         const url = `/admin/messages-cart?id_cart=${id_cart}`;
@@ -33,7 +33,7 @@ const adminAPI = {
     },
     deleteProduct: (id, token) => {
         const url = `/admin/delete-product?id_product=${id}`;
-        return axiosClient.delete(url, null, token);
+        return axiosClient.delete(url, {}, token);
     },
     updateProduct: (data, token) => {
         const url = "/admin/update-product";
@@ -66,7 +66,7 @@ const adminAPI = {
     },
     deleteAllCart: (id_user, token) => {
         const url = `/admin/delete-all-cart?_id_user=${id_user}`;
-        return axiosClient.delete(url, null, token);
+        return axiosClient.delete(url, {}, token);
     },
 };
 export default adminAPI;
